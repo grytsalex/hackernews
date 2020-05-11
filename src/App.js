@@ -6,9 +6,6 @@ import Search from './components/Search.jsx';
 import Table from './components/Table.jsx';
 import { list } from './config/config.js'
 
-console.log(list)
-
-
 class App extends Component {
   constructor(props) {
     super(props)

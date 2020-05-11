@@ -7,15 +7,3 @@ div {
   justify-content: center;
   align-items: center;
 }
-
-.room {
-  font-weight: bold;
-}
-
-td {
-  border: 1px solid red;
-}
-
-thead td {
-  border: none;
-}

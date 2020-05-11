@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './styles.css';
 
 
 class ExplainBindingsComponent extends Component {
@@ -11,12 +12,14 @@ class ExplainBindingsComponent extends Component {
     }
     render() {
         return (
+            <div className="bind">
             <button
                 onClick={this.onClickMe}
                 type="button"
             >
                 Нажми на меня
             </button>
+            </div>
         );
     }
 }
