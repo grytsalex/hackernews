@@ -32,12 +32,14 @@ class App extends Component {
     const { searchTerm, list } = this.state;
 
     return (
-        <div className="App">
+        <div className="page">
+        <div className="interactions">
           <ExplainBindingsComponent/>
           <Search
             value={searchTerm}
             onChange={this.onSearchChange}
           />
+          </div>
           <Table
             list={list}
             pattern={searchTerm}
