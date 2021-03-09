@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import './styles.css';
 
-
-class ExplainBindingsComponent extends Component {
+export class ExplainBindingsComponent extends Component {
     constructor(props) {
         super(props);
         this.onClickMe = this.onClickMe.bind(this);
@@ -17,7 +16,7 @@ class ExplainBindingsComponent extends Component {
                 onClick={this.onClickMe}
                 type="button"
             >
-                Нажми на меня
+                Press here!
             </button>
             </div>
         );
