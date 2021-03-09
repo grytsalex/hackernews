@@ -38,7 +38,7 @@ exports[`App should have snapshot 1`] = `
     className="interactions"
   >
     <button
-      className=""
+      className="moreStories-btn"
       onClick={[Function]}
       type="button"
     >

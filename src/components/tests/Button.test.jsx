@@ -26,6 +26,6 @@ describe('Button', () => {
         const element = shallow(<Button {...props}/>)
         const button = element.find('button')
         button.simulate('click')
-        expect(props.onClick).toHaveBeenCalled(1)
+        expect(props.onClick).toHaveBeenCalledTimes(1)
     })
 })
