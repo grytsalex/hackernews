@@ -12,16 +12,10 @@ export const Sort = ({ onSort, sortKey, children, activeSortKey, isSortReverse }
   });
 
   return (
-    <div className='sort-wrapper' style={{display: 'flex', flexDirection: 'row', alignItems: 'center'}}>
-      <div className='sort-button'>
-        <Button className={sortClass} onClick={() => onSort(sortKey)} style={{}}>
+        <Button className={sortClass} onClick={() => onSort(sortKey)} style={{}}> 
           {children}
+          {isSortReverse && sortKey === activeSortKey ? <FontAwesomeIcon icon={faSortUp} size="lg" /> : <FontAwesomeIcon icon={faSortDown} size="lg" />}
         </Button>
-      </div>
-      <div className='sort-icon' style={{marginBottom: '6px', marginLeft: '5px'}}>
-          {isSortReverse ? <FontAwesomeIcon icon={faSortUp} size="lg" /> : <FontAwesomeIcon icon={faSortDown} size="lg" />}
-       </div>   
-     </div>
   );
 };
 
