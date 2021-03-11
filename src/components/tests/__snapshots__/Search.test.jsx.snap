@@ -1,14 +1,19 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Search should have snapshot 1`] = `
-<form>
+<form
+  onSubmit={[MockFunction]}
+>
   <input
+    onChange={[MockFunction]}
     type="text"
+    value=""
   />
   <button
+    onClick={[MockFunction]}
     type="submit"
   >
-    Search...
+    
   </button>
 </form>
 `;
