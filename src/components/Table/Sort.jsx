@@ -11,8 +11,9 @@ export const Sort = ({ onSort, sortKey, children, activeSortKey, isSortReverse }
     "button-active": sortKey === activeSortKey,
   });
 
+  // Todo fix icon position
   return (
-        <Button className={sortClass} onClick={() => onSort(sortKey)} style={{}}> 
+        <Button className={sortClass} onClick={() => onSort(sortKey)}> 
           {children}
           {isSortReverse && sortKey === activeSortKey ? <FontAwesomeIcon icon={faSortUp} size="lg" /> : <FontAwesomeIcon icon={faSortDown} size="lg" />}
         </Button>
