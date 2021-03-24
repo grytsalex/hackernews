@@ -1,12 +1,24 @@
-import { updateSearchTopStoriesState } from '../helpers';
+import { updateSearchTopStoriesState } from "../helpers";
 
-describe('updateSearchTopStoriesState', () => {
-    // Todo write test for HOC
-    const hits = [{title: 'newTitle'}, {title: 'newTitle1'}];
-    const page = 1;
-    const result = {hits, page};
+describe("updateSearchTopStoriesState", () => {
+  it("call with correct props must return result", () => {
+    const hits = [
+      {
+        objectID: "23325319",
+        author: "DerWOK",
+        title: "Guerrilla Public Service Redux (2017)",
+      },
+      {
+        objectID: "14273549",
+        author: "jdeal",
+        title: "Build Yourself a Redux",
+      },
+    ];
 
-    it('call with correct props must return result', () => {
-        expect(updateSearchTopStoriesState(hits, page)).toEqual(result);
-    })
-})
+    const page = 0;
+
+    const expected = {results: { redux: { hits , page }}}
+
+    expect(updateSearchTopStoriesState(hits, page)()).toEqual(expected);
+  });
+});

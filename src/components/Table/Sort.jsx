@@ -13,9 +13,9 @@ export const Sort = ({ onSort, sortKey, children, activeSortKey, isSortReverse }
 
   // Todo fix icon position
   return (
-        <Button className={sortClass} onClick={() => onSort(sortKey)}> 
-          {children}
-          {isSortReverse && sortKey === activeSortKey ? <FontAwesomeIcon icon={faSortUp} size="lg" /> : <FontAwesomeIcon icon={faSortDown} size="lg" />}
+        <Button className={sortClass} onClick={() => onSort(sortKey)} customStyles={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+          <div style={{ paddingRight: '5px'}}>{children}</div>
+          {isSortReverse && sortKey === activeSortKey ? <FontAwesomeIcon icon={faSortUp} size="lg" /> : <FontAwesomeIcon icon={faSortDown}  size="lg" />}
         </Button>
   );
 };
