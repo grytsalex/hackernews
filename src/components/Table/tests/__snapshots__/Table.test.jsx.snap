@@ -1,0 +1,343 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Table should have snapshot 1`] = `
+<div
+  className="table"
+>
+  <div
+    className="table-header"
+  >
+    <span
+      style={
+        Object {
+          "width": "40%",
+        }
+      }
+    >
+      <button
+        className="button-inline"
+        onClick={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "justifyContent": "center",
+          }
+        }
+        type="button"
+      >
+        <div
+          style={
+            Object {
+              "paddingRight": "5px",
+            }
+          }
+        >
+          Title
+        </div>
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-sort-down fa-w-10 fa-lg "
+          data-icon="sort-down"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          style={
+            Object {
+              "paddingBottom": "5px",
+            }
+          }
+          viewBox="0 0 320 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M41 288h238c21.4 0 32.1 25.9 17 41L177 448c-9.4 9.4-24.6 9.4-33.9 0L24 329c-15.1-15.1-4.4-41 17-41z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+      </button>
+    </span>
+    <span
+      style={
+        Object {
+          "width": "30%",
+        }
+      }
+    >
+      <button
+        className="button-inline"
+        onClick={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "justifyContent": "center",
+          }
+        }
+        type="button"
+      >
+        <div
+          style={
+            Object {
+              "paddingRight": "5px",
+            }
+          }
+        >
+          Author
+        </div>
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-sort-down fa-w-10 fa-lg "
+          data-icon="sort-down"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          style={
+            Object {
+              "paddingBottom": "5px",
+            }
+          }
+          viewBox="0 0 320 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M41 288h238c21.4 0 32.1 25.9 17 41L177 448c-9.4 9.4-24.6 9.4-33.9 0L24 329c-15.1-15.1-4.4-41 17-41z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+      </button>
+    </span>
+    <span
+      style={
+        Object {
+          "width": "10%",
+        }
+      }
+    >
+      <button
+        className="button-inline"
+        onClick={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "justifyContent": "center",
+          }
+        }
+        type="button"
+      >
+        <div
+          style={
+            Object {
+              "paddingRight": "5px",
+            }
+          }
+        >
+          Comments
+        </div>
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-sort-down fa-w-10 fa-lg "
+          data-icon="sort-down"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          style={
+            Object {
+              "paddingBottom": "5px",
+            }
+          }
+          viewBox="0 0 320 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M41 288h238c21.4 0 32.1 25.9 17 41L177 448c-9.4 9.4-24.6 9.4-33.9 0L24 329c-15.1-15.1-4.4-41 17-41z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+      </button>
+    </span>
+    <span
+      style={
+        Object {
+          "width": "10%",
+        }
+      }
+    >
+      <button
+        className="button-inline"
+        onClick={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "justifyContent": "center",
+          }
+        }
+        type="button"
+      >
+        <div
+          style={
+            Object {
+              "paddingRight": "5px",
+            }
+          }
+        >
+          Points
+        </div>
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-sort-down fa-w-10 fa-lg "
+          data-icon="sort-down"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          style={
+            Object {
+              "paddingBottom": "5px",
+            }
+          }
+          viewBox="0 0 320 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M41 288h238c21.4 0 32.1 25.9 17 41L177 448c-9.4 9.4-24.6 9.4-33.9 0L24 329c-15.1-15.1-4.4-41 17-41z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+      </button>
+    </span>
+    <span
+      style={
+        Object {
+          "display": "table",
+          "margin": "auto",
+          "width": "10%",
+        }
+      }
+    >
+      Archive
+    </span>
+  </div>
+  <div
+    className="table-row"
+  >
+    <span
+      style={
+        Object {
+          "width": "40%",
+        }
+      }
+    >
+      <a>
+        1
+      </a>
+    </span>
+    <span
+      style={
+        Object {
+          "width": "30%",
+        }
+      }
+    >
+      1
+    </span>
+    <span
+      style={
+        Object {
+          "width": "10%",
+        }
+      }
+    >
+      1
+    </span>
+    <span
+      style={
+        Object {
+          "width": "10%",
+        }
+      }
+    >
+      1
+    </span>
+    <span
+      style={
+        Object {
+          "width": "10%",
+        }
+      }
+    >
+      <button
+        className="button-inline"
+        onClick={[Function]}
+        style={Object {}}
+        type="button"
+      >
+        Delete
+      </button>
+    </span>
+  </div>
+  <div
+    className="table-row"
+  >
+    <span
+      style={
+        Object {
+          "width": "40%",
+        }
+      }
+    >
+      <a>
+        2
+      </a>
+    </span>
+    <span
+      style={
+        Object {
+          "width": "30%",
+        }
+      }
+    >
+      2
+    </span>
+    <span
+      style={
+        Object {
+          "width": "10%",
+        }
+      }
+    >
+      1
+    </span>
+    <span
+      style={
+        Object {
+          "width": "10%",
+        }
+      }
+    >
+      1
+    </span>
+    <span
+      style={
+        Object {
+          "width": "10%",
+        }
+      }
+    >
+      <button
+        className="button-inline"
+        onClick={[Function]}
+        style={Object {}}
+        type="button"
+      >
+        Delete
+      </button>
+    </span>
+  </div>
+</div>
+`;

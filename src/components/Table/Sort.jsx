@@ -15,7 +15,7 @@ export const Sort = ({ onSort, sortKey, children, activeSortKey, isSortReverse }
   return (
         <Button className={sortClass} onClick={() => onSort(sortKey)} customStyles={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
           <div style={{ paddingRight: '5px'}}>{children}</div>
-          {isSortReverse && sortKey === activeSortKey ? <FontAwesomeIcon icon={faSortUp} size="lg" /> : <FontAwesomeIcon icon={faSortDown}  size="lg" />}
+          {isSortReverse && sortKey === activeSortKey ? <FontAwesomeIcon icon={faSortUp} size="lg" style={{ paddingBottom: '5px'}}/> : <FontAwesomeIcon icon={faSortDown}  size="lg" style={{ paddingBottom: '5px'}}/>}
         </Button>
   );
 };

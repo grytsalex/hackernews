@@ -28,22 +28,273 @@ exports[`App should have snapshot 1`] = `
       <button
         onClick={[Function]}
         type="submit"
-      />
+      >
+        Search
+      </button>
     </form>
   </div>
   <div
     className="table"
-  />
+  >
+    <div
+      className="table-header"
+    >
+      <span
+        style={
+          Object {
+            "width": "40%",
+          }
+        }
+      >
+        <button
+          className="button-inline"
+          onClick={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "center",
+            }
+          }
+          type="button"
+        >
+          <div
+            style={
+              Object {
+                "paddingRight": "5px",
+              }
+            }
+          >
+            Title
+          </div>
+          <svg
+            aria-hidden="true"
+            className="svg-inline--fa fa-sort-down fa-w-10 fa-lg "
+            data-icon="sort-down"
+            data-prefix="fas"
+            focusable="false"
+            role="img"
+            style={
+              Object {
+                "paddingBottom": "5px",
+              }
+            }
+            viewBox="0 0 320 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M41 288h238c21.4 0 32.1 25.9 17 41L177 448c-9.4 9.4-24.6 9.4-33.9 0L24 329c-15.1-15.1-4.4-41 17-41z"
+              fill="currentColor"
+              style={Object {}}
+            />
+          </svg>
+        </button>
+      </span>
+      <span
+        style={
+          Object {
+            "width": "30%",
+          }
+        }
+      >
+        <button
+          className="button-inline"
+          onClick={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "center",
+            }
+          }
+          type="button"
+        >
+          <div
+            style={
+              Object {
+                "paddingRight": "5px",
+              }
+            }
+          >
+            Author
+          </div>
+          <svg
+            aria-hidden="true"
+            className="svg-inline--fa fa-sort-down fa-w-10 fa-lg "
+            data-icon="sort-down"
+            data-prefix="fas"
+            focusable="false"
+            role="img"
+            style={
+              Object {
+                "paddingBottom": "5px",
+              }
+            }
+            viewBox="0 0 320 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M41 288h238c21.4 0 32.1 25.9 17 41L177 448c-9.4 9.4-24.6 9.4-33.9 0L24 329c-15.1-15.1-4.4-41 17-41z"
+              fill="currentColor"
+              style={Object {}}
+            />
+          </svg>
+        </button>
+      </span>
+      <span
+        style={
+          Object {
+            "width": "10%",
+          }
+        }
+      >
+        <button
+          className="button-inline"
+          onClick={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "center",
+            }
+          }
+          type="button"
+        >
+          <div
+            style={
+              Object {
+                "paddingRight": "5px",
+              }
+            }
+          >
+            Comments
+          </div>
+          <svg
+            aria-hidden="true"
+            className="svg-inline--fa fa-sort-down fa-w-10 fa-lg "
+            data-icon="sort-down"
+            data-prefix="fas"
+            focusable="false"
+            role="img"
+            style={
+              Object {
+                "paddingBottom": "5px",
+              }
+            }
+            viewBox="0 0 320 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M41 288h238c21.4 0 32.1 25.9 17 41L177 448c-9.4 9.4-24.6 9.4-33.9 0L24 329c-15.1-15.1-4.4-41 17-41z"
+              fill="currentColor"
+              style={Object {}}
+            />
+          </svg>
+        </button>
+      </span>
+      <span
+        style={
+          Object {
+            "width": "10%",
+          }
+        }
+      >
+        <button
+          className="button-inline"
+          onClick={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "center",
+            }
+          }
+          type="button"
+        >
+          <div
+            style={
+              Object {
+                "paddingRight": "5px",
+              }
+            }
+          >
+            Points
+          </div>
+          <svg
+            aria-hidden="true"
+            className="svg-inline--fa fa-sort-down fa-w-10 fa-lg "
+            data-icon="sort-down"
+            data-prefix="fas"
+            focusable="false"
+            role="img"
+            style={
+              Object {
+                "paddingBottom": "5px",
+              }
+            }
+            viewBox="0 0 320 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M41 288h238c21.4 0 32.1 25.9 17 41L177 448c-9.4 9.4-24.6 9.4-33.9 0L24 329c-15.1-15.1-4.4-41 17-41z"
+              fill="currentColor"
+              style={Object {}}
+            />
+          </svg>
+        </button>
+      </span>
+      <span
+        style={
+          Object {
+            "display": "table",
+            "margin": "auto",
+            "width": "10%",
+          }
+        }
+      >
+        Archive
+      </span>
+    </div>
+  </div>
   <div
     className="interactions"
   >
-    <button
-      className="moreStories-btn"
-      onClick={[Function]}
-      type="button"
+    <div
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "justifyContent": "center",
+        }
+      }
     >
-      More stories
-    </button>
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-spinner fa-w-16 fa-lg "
+        data-icon="spinner"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 512 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M304 48c0 26.51-21.49 48-48 48s-48-21.49-48-48 21.49-48 48-48 48 21.49 48 48zm-48 368c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48zm208-208c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48zM96 256c0-26.51-21.49-48-48-48S0 229.49 0 256s21.49 48 48 48 48-21.49 48-48zm12.922 99.078c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48c0-26.509-21.491-48-48-48zm294.156 0c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48c0-26.509-21.49-48-48-48zM108.922 60.922c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.491-48-48-48z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+      <p
+        style={
+          Object {
+            "paddingLeft": "10px",
+          }
+        }
+      >
+        Loading...
+      </p>
+    </div>
   </div>
 </div>
 `;

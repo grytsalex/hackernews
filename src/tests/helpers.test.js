@@ -14,11 +14,13 @@ describe("updateSearchTopStoriesState", () => {
         title: "Build Yourself a Redux",
       },
     ];
-
+    const prevState = {
+      searchKey: 'redux',
+    }
     const page = 0;
 
-    const expected = {results: { redux: { hits , page }}}
+    const expected = {results: { redux: { hits , page }}, isLoading: false}
 
-    expect(updateSearchTopStoriesState(hits, page)()).toEqual(expected);
+    expect(updateSearchTopStoriesState(hits, page)(prevState)).toEqual(expected);
   });
 });

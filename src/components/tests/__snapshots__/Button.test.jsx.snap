@@ -4,6 +4,7 @@ exports[`Button should have snapshot 1`] = `
 <button
   className=""
   onClick={[MockFunction]}
+  style={Object {}}
   type="button"
 >
   Press
