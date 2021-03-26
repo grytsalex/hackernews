@@ -1,7 +1,7 @@
 body {
   color: #222;
-  background: #f4f4f4;
   font: 400 14px CoreSans, Arial, sans-serif;
+  background-image: linear-gradient(to right top, #c7d16b, #cfd25d, #d8d24f, #e3d13f, #eed02c, #ded42f, #ced835, #bedb3e, #90df67, #62df8e, #34dcb0, #17d7cb);
 }
 a {
   color: #222;
@@ -26,7 +26,7 @@ button {
   padding: 10px;
   border-radius: 5px;
   border: 1px solid #dddddd;
-  background: transparent;
+  background: #f4f4f4;
   color: #808080;
   cursor: pointer;
 }
